@@ -10,7 +10,7 @@ class Group(models.Model):
     description = models.TextField(verbose_name='Описание')
 
     def __str__(self):
-        return f'{self.title}'
+        return {self.title}
 
 
 class Post(models.Model):
