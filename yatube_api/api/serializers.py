@@ -52,7 +52,7 @@ class FollowSerializer(serializers.ModelSerializer):
                 queryset=model.objects.all(),
                 fields=('user', 'following'),
                 message=("Такая подписка уже существует и так")
-            )
+            ),
         )
 
     def validate(self, data):
