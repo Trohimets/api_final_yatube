@@ -3,7 +3,7 @@ from rest_framework import viewsets
 from rest_framework import permissions
 from rest_framework import filters
 from rest_framework.pagination import LimitOffsetPagination
-from posts.models import Post, Group, User, Follow
+from posts.models import Post, Group, User
 from api.serializers import PostSerializer, GroupSerializer, FollowSerializer
 from api.serializers import CommentSerializer, UserSerializer
 from api.permissions import AuthorOrReadOnly
