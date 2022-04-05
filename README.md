@@ -73,3 +73,5 @@ GET .../api/v1/groups/2/
 # Разработчики
 
 [Трохимец Константин](https://github.com/Trohimets): весь проект.
+
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
